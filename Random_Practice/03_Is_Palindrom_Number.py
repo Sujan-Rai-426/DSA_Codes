@@ -7,7 +7,7 @@
 # Time Complexity: O(n) — Where n is number input digits,      ---->linear time to check the number.
 # Space Complexity: O(1) — constant space usage, aside from the input string.
 
-def Is_Palindrome(num):
+def Is_Palindrome_Number(num):
     l, r = 0, len(num)-1
     while l<r:
         if num[l] != num[r]:
@@ -17,5 +17,4 @@ def Is_Palindrome(num):
     return True
     
 input_num = input("Enter the number:")
-# Optimized conversion to a list of digits
-print("Given number is Palindrome =>",Is_Palindrome(input_num))
+print("Given number is Palindrome =>",Is_Palindrome_Number(input_num))
