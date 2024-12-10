@@ -3,6 +3,9 @@
 
 # Reverse the given string
 
+# Space Complexity: O(n)
+# Time Complexity: O(n)
+
 def Reverse_String(strs):
     strs=list(strs)
     l , r = 0 , len(strs)-1 
